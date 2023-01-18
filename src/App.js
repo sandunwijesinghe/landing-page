@@ -21,12 +21,14 @@ function App() {
 
   return (
     <div className="overflow-hidden">
-      <About />
-      <CtaSection />
-      <Features />
-      <Footer />
+   
       <Hero />
-      <Testimonials />
+      <About/>
+      <Features/>
+      <Testimonials/>
+      <CtaSection/>
+      <Footer/>
+     
     </div>
   );
 }
